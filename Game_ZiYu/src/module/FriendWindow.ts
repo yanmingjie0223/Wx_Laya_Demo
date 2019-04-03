@@ -13,7 +13,8 @@ export default class FriendWindow extends Laya.Sprite {
         this._list = new Laya.List();
         this.addChild(this._list);
         this._list.size(600, 400);
-		this._list.itemRender = RankItem;
+        this._list.itemRender = RankItem;
+        this._list.array = [];
 		this._list.vScrollBarSkin = "";
 		this._list.renderHandler = new Laya.Handler(this, (cell, index) => {
 			cell.setItem(cell.dataSource);
