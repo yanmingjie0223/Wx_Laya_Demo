@@ -20,7 +20,7 @@ const myIpAddress = function () {
 			}
 		});
     }
-    
+
     return iptable.address;
 }();
 
@@ -39,7 +39,7 @@ const development = {
 		babel({
 			exclude: 'node_modules/**'
 		}),
-		serve({ 
+		serve({
 			contentBase: ['bin'],
 			host: myIpAddress ? myIpAddress : 'localhost',
 			port: 1080
@@ -72,7 +72,6 @@ const production = {
 };
 
 let exportConfig = development;
-console.log('BUILD_ENV', BUILD_ENV)
 switch(BUILD_ENV) {
 	case 'production': exportConfig = production; break;
 	case 'development': exportConfig = development; break;

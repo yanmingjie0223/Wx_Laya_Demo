@@ -29,6 +29,7 @@
     "rollup-plugin-uglify": "^4.0.0",
     "tslib": "^1.9.2",
     "typescript": "^2.9.2",
-    "uglify-js": "^3.3.28"
+    "uglify-js": "^3.3.28",
+    "rollup": "^1.13.0"
   }
 }

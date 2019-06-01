@@ -53370,7 +53370,6 @@ var EventConst = /** @class */function () {
     EventConst.QUN_RANK = 'Qun_rank';
     return EventConst;
 }();
-//# sourceMappingURL=EventConst.js.map
 
 var WxManager = /** @class */function () {
     function WxManager() {}
@@ -53441,7 +53440,6 @@ var App = /** @class */function () {
     };
     return App;
 }();
-//# sourceMappingURL=App.js.map
 
 var Main = /** @class */function () {
     function Main() {
@@ -53467,7 +53465,5 @@ var Main = /** @class */function () {
     };
     return Main;
 }();
-//# sourceMappingURL=Main.js.map
 
 new Main();
-//# sourceMappingURL=index.js.map
